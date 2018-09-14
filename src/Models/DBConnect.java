@@ -4,8 +4,8 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class DBConnect {
-    private static String user="student";
-    private static String password ="student";
+    private static String user="root";
+    private static String password ="";
 
     public static ArrayList<String> getPhoneManufacturers() throws SQLException {
         ArrayList<String> manufacturere = new ArrayList<>();
