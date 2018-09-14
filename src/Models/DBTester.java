@@ -1,9 +1,16 @@
 package Models;
 
+import java.sql.SQLDataException;
+import java.sql.SQLException;
+
 public class DBTester {
 
-    public static void main(String[] args){
-        System.out.println(DBConnect.getPhoneManufacturers().)
+    public static void main(String[] args) {
+        try {
+            System.out.println(DBConnect.getPhoneManufacturers());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }
 
