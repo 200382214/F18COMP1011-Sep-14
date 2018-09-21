@@ -1,6 +1,6 @@
 package Models;
 
-import java.sql.SQLDataException;
+
 import java.sql.SQLException;
 
 public class DBTester {

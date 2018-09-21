@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f363b4bf-c17e-41e1-8e4b-cdb0cee5ec50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Models/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/phoneView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/PhoneView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/DBConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Models/DBTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/DBTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/phoneView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/phoneView.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,31 +18,33 @@
     <session id="-1367766200">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="1" />
-          <entry key="java" value="4" />
+          <entry key="fxml" value="3" />
+          <entry key="java" value="6" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DBN-SQL" value="1" />
-          <entry key="JAVA" value="4" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="6" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1325" />
+          <entry key="java" value="1326" />
           <entry key="sql" value="38" />
           <entry key="txt" value="17" />
         </counts>
@@ -52,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="DBN-SQL" value="38" />
-          <entry key="JAVA" value="1325" />
+          <entry key="JAVA" value="1326" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
@@ -63,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="db://925ced0c-7477-4ada-9b64-67be0e02d7fe/consoles/Connection">
           <provider selected="true" editor-type-id="0.CONSOLE">
-            <state line="1" column="28" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" current-schema="phones" session-id="MAIN">
+            <state line="1" column="28" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.0" current-schema="phones" session-id="MAIN">
               <folding />
             </state>
           </provider>
@@ -84,20 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/DBTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/MobilePhone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2193">
-              <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#907#908#0" expanded="true" />
@@ -125,12 +122,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Views/phoneView.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="147" selection-start-line="15" selection-start-column="147" selection-end-line="15" selection-end-column="147" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Views/PhoneView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -141,8 +147,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -162,9 +168,10 @@
       <list>
         <option value="925ced0c-7477-4ada-9b64-67be0e02d7fe/consoles/Connection" />
         <option value="$PROJECT_DIR$/src/Models/DBConnect.java" />
-        <option value="$PROJECT_DIR$/src/Models/DBTester.java" />
         <option value="$PROJECT_DIR$/src/Views/phoneView.fxml" />
         <option value="$PROJECT_DIR$/src/Models/MobilePhone.java" />
+        <option value="$PROJECT_DIR$/src/Views/PhoneView.java" />
+        <option value="$PROJECT_DIR$/src/Models/DBTester.java" />
       </list>
     </option>
   </component>
@@ -182,8 +189,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -195,8 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,6 +218,12 @@
               <item name="F18COMP1011-Sep-14" type="b2602c69:ProjectViewProjectNode" />
               <item name="F18COMP1011-Sep-14" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="F18COMP1011-Sep-14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="F18COMP1011-Sep-14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -224,11 +235,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536938746856" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-6.0.5.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537497458121" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Gluon/SceneBuilder.lnk" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -291,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536933582413</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit again">
+      <created>1536960852086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536960852086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -305,9 +324,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1704698" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17986578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -316,18 +334,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1574468" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" sideWeight="0.49932885" weight="0.20425531" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="DB Browser" order="1" visible="true" weight="0.12684564" />
+      <window_info anchor="right" id="DB Browser" order="1" weight="0.2080537" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -336,6 +354,16 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295302" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -355,7 +383,7 @@
     </entry>
     <entry file="db://925ced0c-7477-4ada-9b64-67be0e02d7fe/consoles/Connection">
       <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="1" column="28" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" current-schema="phones" session-id="MAIN">
+        <state line="1" column="28" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.0" current-schema="phones" session-id="MAIN">
           <folding />
         </state>
       </provider>
@@ -372,26 +400,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/DBTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/phoneView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/Views/PhoneView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/MobilePhone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#907#908#0" expanded="true" />
@@ -415,6 +439,14 @@
             <element signature="e#3422#3423#0" expanded="true" />
             <element signature="e#3466#3467#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/phoneView.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="147" selection-start-line="15" selection-start-column="147" selection-end-line="15" selection-end-column="147" />
         </state>
       </provider>
     </entry>
