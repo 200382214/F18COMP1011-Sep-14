@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f363b4bf-c17e-41e1-8e4b-cdb0cee5ec50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controllers/PhoneCreatorViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="f363b4bf-c17e-41e1-8e4b-cdb0cee5ec50" name="Default Changelist" comment="scene added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/PhoneView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/PhoneCreatorViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/PhoneCreatorViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/DBConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/phoneView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/phoneView.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,33 +18,35 @@
     <session id="-1367766200">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="4" />
-          <entry key="java" value="9" />
+          <entry key="fxml" value="5" />
+          <entry key="java" value="10" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DBN-SQL" value="1" />
-          <entry key="JAVA" value="9" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="10" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1537" />
+          <entry key="fxml" value="7" />
+          <entry key="java" value="2315" />
           <entry key="sql" value="38" />
           <entry key="txt" value="31" />
         </counts>
@@ -54,8 +54,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="DBN-SQL" value="38" />
-          <entry key="JAVA" value="1537" />
+          <entry key="JAVA" value="2315" />
           <entry key="PLAIN_TEXT" value="31" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -65,17 +66,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="db://925ced0c-7477-4ada-9b64-67be0e02d7fe/consoles/Connection">
           <provider selected="true" editor-type-id="0.CONSOLE">
-            <state line="1" column="28" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.5" current-schema="phones" session-id="MAIN">
+            <state line="1" column="28" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" current-schema="phones" session-id="MAIN">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Models/DBConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="211">
+              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/DBTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -95,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/MobilePhone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="-1519">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Views/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/PhoneCreatorViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="119">
+              <caret line="61" column="75" lean-forward="true" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,10 +138,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/PhoneCreatorViewController.java">
+        <entry file="file://$PROJECT_DIR$/src/Views/phoneView.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="153">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Views/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,9 +173,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>=</find>
+      <find>manufacturere</find>
     </findStrings>
     <replaceStrings>
       <replace>(</replace>
+      <replace>manufacturers</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -174,13 +187,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="925ced0c-7477-4ada-9b64-67be0e02d7fe/consoles/Connection" />
-        <option value="$PROJECT_DIR$/src/Models/DBConnect.java" />
         <option value="$PROJECT_DIR$/src/Models/MobilePhone.java" />
         <option value="$PROJECT_DIR$/src/Models/DBTester.java" />
-        <option value="$PROJECT_DIR$/src/Views/phoneView.fxml" />
         <option value="$PROJECT_DIR$/src/Views/PhoneView.java" />
-        <option value="$PROJECT_DIR$/src/Controllers/PhoneCreatorViewController.java" />
         <option value="$PROJECT_DIR$/src/Views/Main.java" />
+        <option value="$PROJECT_DIR$/src/Views/phoneView.fxml" />
+        <option value="$PROJECT_DIR$/src/Controllers/PhoneCreatorViewController.java" />
+        <option value="$PROJECT_DIR$/src/Models/DBConnect.java" />
       </list>
     </option>
   </component>
@@ -198,10 +211,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -211,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +239,18 @@
               <item name="F18COMP1011-Sep-14" type="b2602c69:ProjectViewProjectNode" />
               <item name="F18COMP1011-Sep-14" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="F18COMP1011-Sep-14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="F18COMP1011-Sep-14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="F18COMP1011-Sep-14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="F18COMP1011-Sep-14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,10 +262,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537536357758" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538134985040" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GUIMOVIE-master" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -320,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537497712869</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="scene added">
+      <created>1537536437226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537536437226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -336,7 +367,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17986578" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18791947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,16 +376,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55602837" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.4397163" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.21702127" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" sideWeight="0.49932885" weight="0.50496453" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.20141844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="DB Browser" order="1" weight="0.2080537" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24966443" />
@@ -365,6 +396,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295302" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18791947" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.20567375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.21702127" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" sideWeight="0.49932885" weight="0.50496453" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.20141844" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="DB Browser" order="1" weight="0.2080537" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295302" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -393,48 +454,32 @@
     <entry file="file://$PROJECT_DIR$/src/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/PhoneView.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/beans/value/ChangeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="db://925ced0c-7477-4ada-9b64-67be0e02d7fe/consoles/Connection">
       <provider selected="true" editor-type-id="0.CONSOLE">
-        <state line="1" column="28" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.5" current-schema="phones" session-id="MAIN">
+        <state line="1" column="28" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" current-schema="phones" session-id="MAIN">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/DBConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/DBTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/PhoneView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/phoneView.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="147" selection-start-line="16" selection-start-column="147" selection-end-line="16" selection-end-column="147" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/MobilePhone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="-1519">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -462,20 +507,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/PhoneCreatorViewController.java">
+    <entry file="file://$PROJECT_DIR$/src/Views/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/PhoneCreatorViewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="119">
+          <caret line="61" column="75" lean-forward="true" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/DBTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/DBConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

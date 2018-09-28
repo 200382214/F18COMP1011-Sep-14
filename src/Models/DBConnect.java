@@ -4,46 +4,91 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class DBConnect {
-    private static String user="root";
-    private static String password ="";
+    private static String userName = "root";
+    private static String password = "";
 
     public static ArrayList<String> getPhoneManufacturers() throws SQLException {
-        ArrayList<String> manufacturere = new ArrayList<>();
+        ArrayList<String> manufacturers = new ArrayList<>();
         Connection conn = null;
         Statement statement = null;
         ResultSet resultSet = null;
 
-            try{
-                //1. Connect to database
-                conn =  DriverManager.getConnection("jdbc:mysql://localhost:3306/phones?useSSL=false",user,password);
+        try{
+            //1. connect to the database
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/phones?useSSL=false",
+                    userName, password);
 
-                //2. v=create a Statement
-                statement = conn.createStatement();
-                //3. create a Sql Query
-                resultSet = statement.executeQuery("Select * From manufacturers");
-                //4. loop over the results and add it to the ArrayList
-                while(resultSet.next())
-                {
-                    manufacturere.add(resultSet.getString("manufacturers"));
+            //2.  Create a statement object
+            statement = conn.createStatement();
 
-                }
+            //3.  create and execute the query
+            resultSet = statement.executeQuery("SELECT * FROM manufacturers");
 
-            }
-            catch(SQLException e)
+            //4.  loop over the results and add to the ArrayList
+            while (resultSet.next())
             {
-                System.err.println(e);
+                manufacturers.add(resultSet.getString("manufacturers"));
             }
-            finally {
-            if(conn != null)
+        }
+        catch (SQLException e)
+        {
+            System.err.println(e);
+        }
+        finally {
+            if (conn != null)
                 conn.close();
-            if(statement != null)
-             statement.close();
-             if(resultSet!= null)
-             resultSet.close();
-            }
+            if (statement != null)
+                statement.close();
+            if (resultSet != null)
+                resultSet.close();
+        }
 
-        return manufacturere;
+        return manufacturers;
     }
 
+    public static String getOSForManufacturer(String manufacturer) throws SQLException {
+        String os=null;
+        Connection conn = null;
+        PreparedStatement ps = null;
+        ResultSet resultSet = null;
 
+        try{
+            //1.  Connect to the DB
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/phones?useSSL=false",
+                    userName, password);
+
+            //2.  Create a sql statement
+            String sql = "SELECT os FROM manufacturers WHERE manufacturers = ?";
+
+            //3.  Create the prepared statement
+            ps = conn.prepareStatement(sql);
+
+            //4.  Bind the parameter(s)
+            ps.setString(1, manufacturer);
+
+            //5.  get the results
+            resultSet = ps.executeQuery();
+
+            //6.  loop over the results
+            while(resultSet.next())
+            {
+                os = resultSet.getString("os");
+            }
+        }
+        catch (SQLException e)
+        {
+            System.err.println(e);
+        }
+        finally {
+            if (conn != null)
+                conn.close();
+
+            if (ps != null)
+                ps.close();
+
+            if (resultSet != null)
+                resultSet.close();
+        }
+        return os;
+    }
 }
